@@ -14,7 +14,6 @@ header {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 nav {
@@ -24,7 +23,6 @@ nav {
 main {
     display: grid;
     grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
     main .projects {
@@ -38,12 +36,16 @@ main {
             padding: 15px;
         }
 
-        main .projects .card-container .card {
-            height: 200px;
-        }
+            main .projects .card-container .card {
+                height: 200px;
+            }
 
+    main .announcements {
+        grid-column: 2 / 3;
+    }
+    
     main .trending {
-        grid-column: 2 / 2;
+        grid-column: 2 / 3;
     }
 
 /* For debugging purposes only */
