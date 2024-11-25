@@ -54,6 +54,10 @@ main {
         grid-row: 1 / 3;
     }
 
+        main .projects h3 {
+            margin-left: 16px;
+        }
+        
         main .projects .card-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
