@@ -8,7 +8,7 @@ body, html {
 
 body {
     display: grid;
-    grid-template-columns: 0.75fr 4fr;
+    grid-template-columns: 0.75fr 3fr;
 }
 
 header {
@@ -16,6 +16,16 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
+    header .header-buttons button {
+        background-color: #1992D4;
+        color: #FFFFFF;
+        margin: 12px;
+        padding: 12px 24px;
+        border-radius: 12px;
+        border: none;
+        font-weight: 900;
+    }
 
 nav {
     color: #FFFFFF;
