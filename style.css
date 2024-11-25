@@ -8,7 +8,7 @@ body, html {
 
 body {
     display: grid;
-    grid-template-columns: 0.75fr 3fr;
+    grid-template-columns: 0.5fr 3fr;
 }
 
 header {
@@ -56,7 +56,7 @@ nav {
 
 main {
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
 }
 
