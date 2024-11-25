@@ -56,6 +56,7 @@ main {
 
         main .projects h3 {
             margin-left: 16px;
+            margin-bottom: 4px;
         }
 
         main .projects .card-container {
