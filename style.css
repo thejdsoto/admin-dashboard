@@ -112,7 +112,12 @@ main {
             padding: 12px 24px;
             margin-bottom: 12px;
         }
-        
+
+        main .announcements p {
+            color: #8D8D8D;
+            font-size: 14px;
+        }
+
 /* For debugging purposes only */
 /* header, nav, main {
     border: 1px solid blue;
