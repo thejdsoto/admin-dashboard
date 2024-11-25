@@ -184,8 +184,8 @@ main {
 
     main .announcements, main .trending {
         grid-column: 2 / 3;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 8px;
+        padding-right: 16px;
     }
 
         main .announcements .card-container, main .trending .card { 
@@ -202,15 +202,27 @@ main {
             font-size: 14px;
         }
 
-/* For debugging purposes only */
-/* header, nav, main {
-    border: 1px solid blue;
-}
+        main .trending ul li {
+            display: flex;
+            list-style-type: none;
+            gap: 24px;
+            margin-bottom: 24px;
+            align-items: center;
+ 
+        }
 
-main .projects, main .announcements, main .trending {
-    border: 1px solid red;
-}
+        main .trending p {
+            margin: 0;
+            font-size: 14px;
+        }
 
-header form, header div, main .card {
-    border: 1px solid orange;
-} */
+        main .trending .trending-card-desc {
+            color: #8D8D8D;
+        }
+
+        main .trending img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;  
+        }
