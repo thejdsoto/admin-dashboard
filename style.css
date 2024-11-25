@@ -52,12 +52,26 @@ header {
                 font-weight: 900;
             }
 
-    header .user-info .user-img {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        object-fit: cover;
+    header .user-info {
+        display: flex;
+        align-items: center;
+        margin-left: 48px;
     }
+        header .user-info .user-img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        header .user-info img {
+            margin-right: 36px;
+        }
+
+        header .user-info p {
+            font-weight: 600;
+            font-size: 16px;
+        }
 
     header .user-greeting {
         display: flex;
